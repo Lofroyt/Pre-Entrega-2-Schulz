@@ -29,59 +29,10 @@ body {
 }
 
 
+
 header.cnt {
     width: 100%;
 }
-
-
-
-.navegacion {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw; /* Cambiar a 100vw (viewport width) */
-    height: 90px;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-
-}
-
-
-
-.navegacion :hover {
-    background-color: rgb(49, 47, 47);
-    color: blueviolet;
-}
-
-
-
-li a {
-    text-decoration: none;
-    color: white;
-    font-size: 35px;
-    padding: 25px;
-}
-
-
-
-
-@media (max-width: 768px) {
-    .navegacion {
-        flex-direction: column;
-        height: auto;
-    }
-
-    li {
-        text-align: center;
-    }
-
-    li a {
-        font-size: 24px;
-        padding: 15px;
-    }
-}
-
-
 
 
 
@@ -91,7 +42,7 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/black-purple-gradient-linear-2560x1440-c2-000000-800080-a-300-f-14.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYahP-kXhu5IP0n3wp6qwZKU4Aln91_8mw3XO5yYEKcCpMX79i_oKvEDXyTAETYnhfIYc&usqp=CAU);
     height: 700px;
     background-size: cover;
 }
@@ -344,6 +295,42 @@ li a {
 
 
 
+
+@media (max-width: 720px) {
+    .cn3 {
+        flex-direction: column;
+    }
+
+    .pie-titulo {
+        margin-top: 60px;
+        margin-bottom: 25px;
+        font-size: 30px;
+        background: rgba(255, 0, 0, 0.39);
+        
+    }
+
+    .red1 {
+        width: 25px;
+    }
+
+    .red1 {
+        width: 80px;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* El logo que esta en el pie de pagina se que tiene un error de gramatica, cuando tenga mas tiempo lo vuelvo a editar para corregirlo */
 
 
@@ -395,6 +382,7 @@ input {
 
 .Form {
     position: relative;
+   
 }
 
 .icon-register {
@@ -415,6 +403,11 @@ input {
     box-shadow: 0 0 20px rgb(155, 154, 154);
 }
 
+
+
+.Formulario {
+    margin-bottom: 100px;
+}
 
 .Aplicar-boton:hover { 
    color: white;
@@ -441,7 +434,7 @@ input {
 
 
 
-   @media (max-width: 1370px) {
+   @media (max-width: 720px) {
     .Formulario {
         
         max-width: 90%; 
@@ -619,7 +612,7 @@ input {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .Titulo-Cursos {
         text-align: center;
     }
